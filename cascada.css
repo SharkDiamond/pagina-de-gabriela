@@ -1,0 +1,126 @@
+body, html {
+ 
+}
+.bg {
+  /* The image used */
+  background-image: url(../pagina/iconos1/fg.jpg);
+
+
+  /* Full height */
+  height: 130%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgi {
+  /* The image used */
+  background-image: url();
+
+  /* Full height */
+  height: 70%;
+
+ 
+  background-position: center;
+
+ /* background-repeat: no-repeat; */
+ /* background-size: cover;*/
+}
+
+
+
+
+.l {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 7px rgb(0, 0, 0);
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+
+}
+
+.lu{
+color: rgb(67, 212, 176);
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+
+
+}
+
+.front, .back, .container {
+  width: 200px;
+  height: 250px;
+  
+ 
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  transition: all 0.3s linear;
+}
+
+.back {
+  transition: all 0.3s linear;
+  transform: rotateY(180deg);
+}
+
+.container {
+  position: relative;
+
+}
+
+.containerr:hover .front {
+  transform: rotateY(180deg);
+}
+
+.containerr:hover .back {
+  transform: rotateY(360deg);
+}
+
+
+
+.bordes{
+
+  font-weight: bold;
+  transition: 300ms ease;
+ 
+
+
+}
+
+.a1{
+
+  
+  transition: 300ms ease;
+  width: 38px;
+  height: 38px;
+}
+
+
+.a2{
+
+  
+  transition: 300ms ease;
+ 
+  width: 30px;
+  height: 30px;
+
+
+}
+
+
+.ll{font-size: 18px;
+
+color: rgb(32, 32, 32);
+
+}

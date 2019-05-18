@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ArisMarmol</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="cascada.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" >
+</head>
+
+<body style="background-color:rgb(255, 255, 255)">
+  <!----------------------------------------------------------------------------->
+
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color fixed-top">
+      <a class="nav-link active" style="color: rgb(255, 255, 255); font-weight: bold;" href="file:///C:/Users/Arispito/Desktop/pagina/pagina/index2.html"><img src="../pagina/iconos1/hogar.png" width="30" height="30" class="d-inline-block align-top" alt="" style="color:azure" id="imagen1">Arismarmol</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+
+        aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link " style="color: rgb(255, 255, 255); font-weight: bold;" href="#!"><img src="../pagina/iconos1/folleto.png" width="30" height="30" class="d-inline-block align-top" alt="" id="imagen2">Productos</a>
+          </li>
+
+          <li class="nav-item">
+            
+            <a class="nav-link" style="color: rgb(255, 255, 255); font-weight: bold;" href="file:///C:/Users/Arispito/Desktop/pagina/pagina/proyectos.html"><img src="../pagina/iconos1/museo.png" width="30" height="30" class="d-inline-block align-top" alt="" id="imagen3">Proyectos</a>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " style="color: rgb(255, 255, 255); font-weight: bold;"  href="file:///C:/Users/Arispito/Desktop/pagina/pagina/contactanos.html"><img src="../pagina/iconos1/telefono.png" width="30" height="30" class="d-inline-block align-top" alt="" id="imagen4">Contactanos</a>
+            
+          </li>
+       
+          
+        </ul>
+        
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.facebook.com/aris.marmol.71" target="_blank">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://www.instagram.com/arismarmol/" target="_blank">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" >
+                  <i class="fab fa-twitter fa-lg"></i>
+                </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script>
+
+   var m1=document.getElementById("imagen1");
+   var m2=document.getElementById("imagen2");
+   var m3=document.getElementById("imagen3");
+   var m4=document.getElementById("imagen4");
+
+var w={
+
+  m1:(valor)=>{
+  return m1.className="a1"; 
+  },
+
+  m1_2:()=>{
+return m1.className="a2"; 
+},
+
+m2:(valor)=>{
+  return m2.className="a1"; 
+  },
+
+  m2_2:()=>{
+return m2.className="a2"; 
+},
+
+m3:(valor)=>{
+  return m3.className="a1"; 
+  },
+
+  m3_2:()=>{
+return m3.className="a2"; 
+},
+
+m4:(valor)=>{
+  return m4.className="a1"; 
+  },
+
+  m4_2:()=>{
+return m4.className="a2"; 
+},
+
+
+}
+
+m1.addEventListener("mousemove",w.m1);
+m1.addEventListener("mouseout",w.m1_2);
+
+m2.addEventListener("mousemove",w.m2);
+m2.addEventListener("mouseout",w.m2_2);
+
+m3.addEventListener("mousemove",w.m3);
+m3.addEventListener("mouseout",w.m3_2);
+
+m4.addEventListener("mousemove",w.m4);
+m4.addEventListener("mouseout",w.m4_2);
+
+    </script>
+    <br>
+    <br>
+    
+<!-- Default form contact -->
+<div class="container-fluid">
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Cotactanos</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Envianos un email llamanos o dirigete a nuestras oficinas.</p>
+    
+        <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Nombre</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Correo</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Asunto</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Santiago, Chile</p>
+                    </li>
+    
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+5646315600</p>
+                    </li>
+    
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>Arismarmol@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+        </div>
+    
+    </section>
+    <!--Section: Contact v.2-->
+</div>
+<!-- Default form contact -->
+
+
+<br>
+<br>
+<div class="card card-cascade wider reverse">
+
+   
+  <!-- Card content -->
+  <div class="card-body card-body-cascade text-center">
+
+    <!-- Title -->
+  
+    <h4 class="card-title font-weight-bold h2 lu">Nuestras Cotizaciones Son Totalmente Gratuitas.</h4>
+    <!-- Subtitle -->
+    <h6 class="  h3 lu">Metodos De Pago</h6>
+   <img src="https://image.flaticon.com/icons/svg/196/196578.svg" height="80px" width="80px">
+   <img src="https://image.flaticon.com/icons/svg/196/196561.svg" height="80px" width="80px">
+   <img src="https://image.flaticon.com/icons/svg/196/196548.svg" height="80px" width="80px">
+   <img src="https://image.flaticon.com/icons/svg/196/196539.svg" height="80px" width="80px">
+   <img src="https://congreso.america-digital.com/anteriores/2017/wp-content/uploads/2017/06/LOGO-TBK-ESP.png" height="80px" width="80px">
+   <br>
+   <br>
+    <p class="lu h4">Somos una empresa responsable honorable y con garantia de que nuestros trabajos son 100% duraderos.</p>
+    <p clas="lu h5" style="color:rgb(67, 212, 176);">Contactanos y Sabras Lo Que Es Calidad De Verdad.</p>
+    <p class="lu h6">Todos los derechos reservados.</p>
+  </div>
+</div>
+<!----------------------------------------------------------------------------->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
